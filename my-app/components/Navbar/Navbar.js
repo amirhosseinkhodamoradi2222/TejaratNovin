@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
-import logo from "../../assets/image/logo.jpeg";
+import logo from "../../assets/image/logo1.jpg";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -12,9 +12,13 @@ export default function Navbar() {
       setMenu(false)
     }
   }
+  // #ddaf27
+  // #320033
+  // #1D2241
+  // #FEBF1A
   return (
     <>
-      <main className="shadow-md text-white bg-black">
+      <main className="shadow-md text-white bg-[#1D2241]">
         <div className="container mx-8 lg:mx-auto">
           <div className="flex items-center justify-between">
             <div>
@@ -35,9 +39,7 @@ export default function Navbar() {
             </div>
             <div onClick={Menu}>sss</div>
           </div>
-         
         </div>
-        
       </main>
       <div className={menu ? `block md:hidden right-0 lg:hidden  h-screen w-1/2 bg-black absolute text-white` : `hidden md:hidden  absolute w-1/2 lg:hidden  h-screen bg-black text-white`}>
               <ul className="flex flex-col gap-4 h-28 items-center">

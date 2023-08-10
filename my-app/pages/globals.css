@@ -1,3 +1,68 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+direction: rtl;
+}
+
+@font-face {
+    font-family: Hireline;
+    src: url("../assets/fonts/Dana-Hairline.woff");
+  }
+  @font-face {
+    font-family: Thin;
+    src: url("../assets/fonts/Dana-Thin.woff");
+  }
+  @font-face {
+    font-family: uktralight;
+    src: url("../assets/fonts/Dana-UltraLight.woff");
+  }
+  @font-face {
+    font-family: light;
+    src: url("../assets/fonts/Dana-Light.woff");
+  }
+  @font-face {
+    font-family: Regular;
+    src: url("../assets/fonts/Dana-Regular.woff");
+  }
+  @font-face {
+    font-family: Medium;
+    src: url("../assets/fonts/Dana-Medium.woff");
+  }
+  @font-face {
+    font-family: demiBold;
+    src: url("../assets/fonts/Dana-DemiBold.woff");
+  }
+  @font-face {
+    font-family: Bold;
+    src: url("../assets/fonts/Dana-Bold.woff");
+  }
+  @font-face {
+    font-family: ExtraBold;
+    src: url("../assets/fonts/Dana-ExtraBold.woff");
+  }
+  @font-face {
+    font-family: Black;
+    src: url("../assets/fonts/Dana-Black.woff");
+  }
+  @font-face {
+    font-family: ExBlack;
+    src: url("../assets/fonts/Dana-ExtraBlack.woff");
+  }
+  @font-face {
+    font-family: Heavy;
+    src: url("../assets/fonts/Dana-Heavy.woff");
+  }
+  @font-face {
+    font-family: Fat;
+    src: url("../assets/fonts/Dana-fat.woff");
+  }
+  
+
+
+  .fonts {
+    -moz-font-feature-settings: "ss03";
+    -webkit-font-feature-settings: "ss03";
+    font-feature-settings: "ss03";
+}
