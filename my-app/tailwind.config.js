@@ -6,6 +6,16 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      primaryColor: '#ddaf27',
+      secondaryColor1: '#320033',
+      secondaryColor2: '#1D2241',
+      secondaryColor3: '#FEBF1A',
+      green : '#33cc66',
+      whate :'#ffffff',
+      yelloe :'#f2bf32',
+      backgroundColor : '#f9f9f9'
+    },
     fontFamily: {
       Hireline: ["Hireline", "sans-serif"],
       Thin: ["Thin", "sans-serif"],
