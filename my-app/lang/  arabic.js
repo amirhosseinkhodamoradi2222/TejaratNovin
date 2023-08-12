@@ -7,6 +7,9 @@ const langArabic = {
   photoGallery: "معرض الصور",
   FAQ: "أسئلة مكررة",
   catalog: "فهرس",
+  footer : {
+    
+  },
 };
 
 export default langArabic;

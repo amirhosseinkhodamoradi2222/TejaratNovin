@@ -1,13 +1,15 @@
 import "./globals.css";
 import Navbar from "../components/Navbar/Navbar";
-import Footer from '../components/Footer/page'
+import Footer from "../components/Footer/page";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="fonts">
+    <div className="fonts bg-backgroundColor">
       <Navbar />
-      <Component {...pageProps} />
-      <Footer/>
+      <div className="container mx-auto">
+        <Component {...pageProps} />
+      </div>
+      <Footer />
     </div>
   );
 }
