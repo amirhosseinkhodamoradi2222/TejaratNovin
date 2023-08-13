@@ -1,7 +1,13 @@
+import { NextSeo } from "next-seo";
 
 export default function Home(props) {
   return (
     <>
+    <NextSeo
+      title="Home"
+      description="A short description goes here."
+      
+    />
       <p>{props.amir}</p>
     </>
   );
