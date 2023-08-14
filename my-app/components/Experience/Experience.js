@@ -9,7 +9,7 @@ export default function Experience() {
       <div>
           <p>zxcxzczxc</p>
           <p>zxcxzczxc</p>
-          <div className="flex">
+          <div className="flex relative">
           <Image src={logo3} className="rounded-full w-20 h-20" />
           <Image src={logo3} className="rounded-full w-20 h-20" />
           <Image src={logo3} className="rounded-full w-20 h-20" />
