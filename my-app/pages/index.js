@@ -5,11 +5,15 @@ import Product from "@/components/Product/Product";
 import About from "@/components/About/About";
 import Experience from "@/components/Experience/Experience";
 import Customer from "@/components/Customer/Customer";
+import Blog from '../components/Blog/Blog'
+
 
 export default function Home(props) {
   return (
     <>
       <NextSeo title="Home" description="A short description goes here." />
+      <Header />
+      <div className="container mx-auto">
       <p className="font-Regular py-8">دسته بندی ها</p>
       <div className="grid  grid-rows-1 grid-cols-2 lg:grid-cols-4 md:grid-cols-2 lg:gap-0 gap-2 ">
         <div className="justify-self-center ">
@@ -29,7 +33,12 @@ export default function Home(props) {
         <p className="font-light">محصولات</p>
         <p className="font-light">محصولات</p>
       </div>
-      <div className="grid grid-rows-1 grid-cols-1 my-8 lg:grid-cols-6">
+      <div className="grid grid-rows-1 grid-cols-1 gap-2 my-8 lg:grid-cols-6">
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
         <Product />
       </div>
       <div className="my-4">
@@ -38,11 +47,22 @@ export default function Home(props) {
       <div className="my-4">
         <Experience />
       </div>
+    <p className="text-center font-Medium text-2xl"> نظر مشتریان </p>
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 my-4 gap-4">
         <Customer />
         <Customer />
         <Customer />
         <Customer />
+      </div>
+      <div className="flex justify-between my-8">
+        <p className="font-light">محصولات</p>
+        <p className="font-light">محصولات</p>
+      </div>
+      <div className="grid grid-rows-1 grid-cols-1 gap-4 my-8 lg:grid-cols-3">
+       <Blog />
+       <Blog />
+       <Blog />
+      </div>
       </div>
     </>
   );

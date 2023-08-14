@@ -5,7 +5,6 @@ import Link from "next/link";
 import langArabic from '../../lang/  arabic'
 import { AiFillFilePdf } from "react-icons/ai";
 import { FiMenu , FiX } from "react-icons/fi";
-import Header from "../Header/Header";
 
 export default function Navbar() {
   const [menu,setMenu] = useState(false)
@@ -46,8 +45,7 @@ export default function Navbar() {
             <button className="font-Medium lg:block hidden rounded-md bg-yelloe text-whate ml-2 py-2 px-8 hover:shadow-lg"><span><AiFillFilePdf size={25} className="inline"/></span> <span>{langArabic.catalog}</span></button>
             </div>
           </div>
-        <Header/>
-        </div>
+          </div>
       </main>
       <div className={menu ? `block md:hidden right-0 lg:hidden shadow-lg h-screen w-1/2 bg-secondaryColor2 absolute text-white` : `hidden md:hidden  absolute w-1/2 lg:hidden  h-screen bg-secondaryColor2 text-white`}>
               <ul className="flex flex-col gap-4 h-28 items-center">

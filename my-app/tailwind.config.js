@@ -6,15 +6,24 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        sm: '4rem',
+        lg: '6rem',
+        xl: '8rem',
+        '2xl': '9rem',
+      },
+    },
     colors: {
-      primaryColor: '#ddaf27',
-      secondaryColor1: '#320033',
-      secondaryColor2: '#1D2241',
-      secondaryColor3: '#FEBF1A',
-      green : '#33cc66',
-      whate :'#ffffff',
-      yelloe :'#f2bf32',
-      backgroundColor : '#f2f3f5'
+      primaryColor: "#ddaf27",
+      secondaryColor1: "#320033",
+      secondaryColor2: "#1D2241",
+      secondaryColor3: "#FEBF1A",
+      green: "#33cc66",
+      whate: "#ffffff",
+      yelloe: "#f2bf32",
+      backgroundColor: "#f2f3f5",
     },
     fontFamily: {
       Hireline: ["Hireline", "sans-serif"],

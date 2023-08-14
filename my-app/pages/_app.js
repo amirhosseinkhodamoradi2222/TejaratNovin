@@ -6,11 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div className="fonts bg-backgroundColor">
       <Navbar />
-      <div className="container mx-auto">
-        <div className="mx-4 lg:mx-0 md:mx-2">
-        <Component {...pageProps} />
-        </div>
-      </div>
+      <Component {...pageProps} />
       <Footer />
     </div>
   );

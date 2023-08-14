@@ -4,20 +4,17 @@ import Image from "next/image";
 
 export default function Customer() {
   return (
-    <div className="bg-whate relative">
-      <div className="">
-        
-      </div>
-      <Image
-          src={logo3}
-          className="rounded-full w-20 h-20 absolute right-1/2    left-1/2  "
-        />
-      <div className="border border-secondaryColor2 opacity-50 p-10">
+    <>
+    <div className="bg-whate shadow rounded">
+      <div className=""></div>
+      <Image src={logo3} className="rounded-full w-16 h-16 mr-5 mt-5" />
+      <div className="p-5">
         <p className="font-Medium">مدیر عامل شرکت</p>
         <p className="font-light">
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
         </p>
       </div>
     </div>
+    </>
   );
 }
