@@ -14,7 +14,7 @@ module.exports = {
       green : '#33cc66',
       whate :'#ffffff',
       yelloe :'#f2bf32',
-      backgroundColor : '#f9f9f9'
+      backgroundColor : '#f2f3f5'
     },
     fontFamily: {
       Hireline: ["Hireline", "sans-serif"],

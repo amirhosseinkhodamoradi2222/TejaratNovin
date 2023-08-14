@@ -5,7 +5,9 @@
 * {
 direction: rtl;
 }
-
+body {
+  background-color: #f2f3f5;
+}
 @font-face {
     font-family: Hireline;
     src: url("../assets/fonts/Dana-Hairline.woff");

@@ -4,13 +4,13 @@ import Image from "next/image";
 
 export default function Customer() {
   return (
-    <div className="relative">
+    <div className="bg-whate relative">
       <div className="">
         
       </div>
       <Image
           src={logo3}
-          className="rounded-full w-20 h-20 absolute right-1/2  top-10  left-1/2  "
+          className="rounded-full w-20 h-20 absolute right-1/2    left-1/2  "
         />
       <div className="border border-secondaryColor2 opacity-50 p-10">
         <p className="font-Medium">مدیر عامل شرکت</p>
