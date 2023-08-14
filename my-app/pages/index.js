@@ -2,6 +2,9 @@ import { NextSeo } from "next-seo";
 import Header from "@/components/Header/Header";
 import Catgory from "@/components/Catgory/Catgory";
 import Product from "@/components/Product/Product";
+import About from "@/components/About/About";
+import Experience from "@/components/Experience/Experience";
+import Customer from "@/components/Customer/Customer";
 
 export default function Home(props) {
   return (
@@ -32,6 +35,14 @@ export default function Home(props) {
       </div>
       <div className="grid grid-rows-1 grid-cols-1 lg:grid-cols-6">
         <Product/>
+      </div>
+      <About />
+      <Experience/>
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
+      <Customer/>
+      <Customer/>
+      <Customer/>
+      <Customer/>
       </div>
     </>
   );
