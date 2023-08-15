@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import logo3 from "../../assets/image/logo3.png";
+import iraq from "../../assets/image/flag/iraq.svg";
 
 export default function Experience() {
   return (
@@ -9,13 +10,16 @@ export default function Experience() {
       <div>
           <p>zxcxzczxc</p>
           <p>zxcxzczxc</p>
-          <div className="flex relative">
-          <Image src={logo3} className="rounded-full w-20 h-20" />
-          <Image src={logo3} className="rounded-full w-20 h-20" />
-          <Image src={logo3} className="rounded-full w-20 h-20" />
-          <Image src={logo3} className="rounded-full w-20 h-20" />
-          <Image src={logo3} className="rounded-full w-20 h-20" />
-        
+          <div className="text-right">
+          <div class="flex">
+          <Image src={iraq} width={180} height={180} className="border-2 border-white rounded-full h-24 w-24 -mr-6" />
+          <Image src={logo3} className="border-2 border-white rounded-full h-24 w-24 -mr-6" />
+          <Image src={logo3} className="border-2 border-white rounded-full h-24 w-24 -mr-6" />
+          <Image src={logo3} className="border-2 border-white rounded-full h-24 w-24 -mr-6" />
+          <Image src={logo3} className="border-2 border-white rounded-full h-24 w-24 -mr-6" />
+          <Image src={logo3} className="border-2 border-white rounded-full h-24 w-24 -mr-6" />
+         
+    </div>
           </div>
         </div>
         <div>
