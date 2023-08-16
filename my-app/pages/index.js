@@ -31,9 +31,10 @@ export default function Home(props) {
             <Catgory />
           </div>
         </div>
-        <div className="flex justify-between my-8">
+        <div className="flex justify-between my-12">
           <p className="font-light">محصولات</p>
-          <p className="font-light">محصولات</p>
+          <Link href={'/'} className="font-bold bg-purple text-whate w-36 py-2 text-center rounded-lg ">محصولات<AiOutlineArrowLeft className="inline text-whate" size={17}/></Link>
+
         </div>
         <div className="grid grid-rows-1 grid-cols-1 gap-8 my-8 lg:grid-cols-4">
           <Product />
