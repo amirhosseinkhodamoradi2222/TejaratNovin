@@ -25,7 +25,8 @@ module.exports = {
       yelloe: "#f2bf32",
       backgroundColor: "#f2f3f5",
       gray: '#8395a7',
-      purple : '#5246a0'
+      purple : '#5246a0',
+      yelloeInfo : '#ffdd59'
     },
     fontFamily: {
       Hireline: ["Hireline", "sans-serif"],

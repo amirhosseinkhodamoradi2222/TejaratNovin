@@ -18,7 +18,7 @@ function Product() {
         </div>
       </div>
 
-      <p className="font-light text-lg bg-primaryColor left-24 m-0 right-24 rounded-lg mr-2 px-8 absolute top-60 text-whate text-center mt-2 py-0 ">
+      <p className="font-light text-lg bg-yelloeInfo left-24 m-0 right-24 rounded-lg mr-2 px-8 absolute top-60 text-whate text-center mt-2 py-0 ">
         موجود در انبار
       </p>
       <p className="font-bold opacity-80 text-2xl mt-4 text-center pr-2 pt-2">
@@ -29,8 +29,7 @@ function Product() {
       </p>
       <Link href={"/"}>
         <p className="font-Medium text-center mt-4 text-secondaryColor1">
-          {" "}
-          جزییاتت{" "}
+          جزییاتت
         </p>
       </Link>
     </div>

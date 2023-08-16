@@ -58,8 +58,8 @@ export default function Home(props) {
           <Customer />
         </div>
         <div className="flex justify-between my-8">
-          <p className="font-light">محصولات</p>
-          <Link href={'/'} className="font-bold bg-purple text-whate w-36 py-2 text-center rounded-lg ">محصولات <AiOutlineArrowLeft className="inline text-whate" size={17}/></Link>
+          <p className="font-light text-lg mt-2">وبلاگ تخصصی ما درباره سنگ</p>
+          <Link href={'/'} className="font-bold bg-purple text-whate w-36 py-2 text-center rounded-lg ">وبلاگ<AiOutlineArrowLeft className="inline text-whate" size={17}/></Link>
         </div>
         <div className="grid grid-rows-1 grid-cols-1 gap-4 my-8 lg:grid-cols-3">
           <Blog />
