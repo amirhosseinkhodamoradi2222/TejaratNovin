@@ -15,6 +15,7 @@ export default function Home(props) {
     <>
       <NextSeo title="Home" description="A short description goes here." />
       <Header />
+      
       <div className="container mx-auto">
         <p className="font-Regular py-8">دسته بندی ها</p>
         <div className="grid  grid-rows-1 grid-cols-2 lg:grid-cols-4 md:grid-cols-2 lg:gap-0 gap-2 ">
@@ -32,8 +33,8 @@ export default function Home(props) {
           </div>
         </div>
         <div className="flex justify-between my-12">
-          <p className="font-light">محصولات</p>
-          <Link href={'/'} className="font-bold bg-purple text-whate w-36 py-2 text-center rounded-lg ">محصولات<AiOutlineArrowLeft className="inline text-whate" size={17}/></Link>
+          <p className="font-light mt-2">محصولات</p>
+          <Link href={'/'} className="lg:font-bold font-light bg-purple text-whate lg:w-36 w-24 lg:py-2 py-1 text-center rounded-lg ">محصولات<AiOutlineArrowLeft className="inline text-whate" size={17}/></Link>
 
         </div>
         <div className="grid grid-rows-1 grid-cols-1 gap-8 my-8 lg:grid-cols-4">
@@ -60,7 +61,7 @@ export default function Home(props) {
         </div>
         <div className="flex justify-between my-8">
           <p className="font-light text-lg mt-2">وبلاگ تخصصی ما درباره سنگ</p>
-          <Link href={'/'} className="font-bold bg-purple text-whate w-36 py-2 text-center rounded-lg ">وبلاگ<AiOutlineArrowLeft className="inline text-whate" size={17}/></Link>
+          <Link href={'/'} className="lg:font-bold font-light bg-purple text-whate lg:w-36 w-24 lg:py-2 py-1 text-center rounded-lg ">وبلاگ<AiOutlineArrowLeft className="inline text-whate" size={17}/></Link>
         </div>
         <div className="grid grid-rows-1 grid-cols-1 gap-4 my-8 lg:grid-cols-3">
           <Blog />

@@ -16,6 +16,9 @@ function Product() {
         <div className="w-12 h-12 absolute bg-[#f6e58d] top-3 rounded right-3">
           <p className="font-demiBold text-center">29 مرداد</p>
         </div>
+        <div className="w-12 h-12 absolute bg-[#6c5ce7] top-3 rounded left-3">
+          <p className="font-demiBold text-center">5 دقیقه</p>
+        </div>
       </div>
 
       <p className="font-light text-lg bg-yelloeInfo left-24 m-0 right-24 rounded-lg mr-2 px-8 absolute top-60 text-whate text-center mt-2 py-0 ">

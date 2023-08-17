@@ -47,7 +47,7 @@ export default function Navbar() {
           </div>
           </div>
       </main>
-      <div className={menu ? `block md:hidden right-0 lg:hidden shadow-lg h-screen w-1/2 bg-secondaryColor2 absolute text-white` : `hidden md:hidden  absolute w-1/2 lg:hidden  h-screen bg-secondaryColor2 text-white`}>
+      <div className={menu ? `block md:hidden right-0 lg:hidden shadow-lg h-screen w-1/2 bg-secondaryColor2 absolute text-white z-10` : `hidden md:hidden z-10  absolute w-1/2 lg:hidden  h-screen bg-secondaryColor2 text-white`}>
               <ul className="flex flex-col gap-4 h-28 items-center">
               <Link className="font-Regular text-whate" href={'/product'}><li>{langArabic.product}</li></Link>
                <Link className="font-Regular text-whate" href={'/services'}><li>{langArabic.service}</li></Link>

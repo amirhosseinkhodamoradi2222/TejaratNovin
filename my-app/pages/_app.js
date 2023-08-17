@@ -4,6 +4,7 @@ import Footer from "../components/Footer/page";
 import { NextSeo } from "next-seo";
 import icon from "../assets/image/logo.jpeg";
 import Head from "next/head";
+import 'swiper/css';
 
 function MyApp({ Component, pageProps }) {
   return (
