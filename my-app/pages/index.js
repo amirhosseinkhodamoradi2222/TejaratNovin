@@ -51,7 +51,7 @@ export default function Home(props) {
         <div className="my-4">
           <Experience />
         </div>
-        <p className="text-center font-Medium text-2xl"> نظر مشتریان </p>
+        <p className="text-center font-Medium text-2xl mt-20"> نظر مشتریان </p>
         <Divedr width={24}/>
         <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 my-4 gap-4">
           <Customer />
@@ -59,7 +59,8 @@ export default function Home(props) {
           <Customer />
           <Customer />
         </div>
-        <div className="flex justify-between my-8">
+        <div className="mt-20">
+        <div className="flex justify-between my-12">
           <p className="font-light text-lg mt-2">وبلاگ تخصصی ما درباره سنگ</p>
           <Link href={'/'} className="lg:font-bold font-light bg-purple text-whate lg:w-36 w-24 lg:py-2 py-1 text-center rounded-lg ">وبلاگ<AiOutlineArrowLeft className="inline text-whate" size={17}/></Link>
         </div>
@@ -67,6 +68,7 @@ export default function Home(props) {
           <Blog />
           <Blog />
           <Blog />
+        </div>
         </div>
       </div>
     </>

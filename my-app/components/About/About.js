@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function About() {
   return (
     <>
-      <div className="grid grid-rows-1 grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-4">
+      <div className="grid grid-rows-1 grid-cols-1 lg:grid-cols-2 md:grid-cols-2 my-44 gap-4">
         <div>
           <Image src={logo3} />
         </div>

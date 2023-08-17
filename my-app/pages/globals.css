@@ -3,68 +3,160 @@
 @tailwind utilities;
 
 * {
-direction: rtl;
+  direction: rtl;
 }
 body {
   background-color: #f9f9f9;
 }
 @font-face {
-    font-family: Hireline;
-    src: url("../assets/fonts/Dana-Hairline.woff");
-  }
-  @font-face {
-    font-family: Thin;
-    src: url("../assets/fonts/Dana-Thin.woff");
-  }
-  @font-face {
-    font-family: uktralight;
-    src: url("../assets/fonts/Dana-UltraLight.woff");
-  }
-  @font-face {
-    font-family: light;
-    src: url("../assets/fonts/Dana-Light.woff");
-  }
-  @font-face {
-    font-family: Regular;
-    src: url("../assets/fonts/Dana-Regular.woff");
-  }
-  @font-face {
-    font-family: Medium;
-    src: url("../assets/fonts/Dana-Medium.woff");
-  }
-  @font-face {
-    font-family: demiBold;
-    src: url("../assets/fonts/Dana-DemiBold.woff");
-  }
-  @font-face {
-    font-family: Bold;
-    src: url("../assets/fonts/Dana-Bold.woff");
-  }
-  @font-face {
-    font-family: ExtraBold;
-    src: url("../assets/fonts/Dana-ExtraBold.woff");
-  }
-  @font-face {
-    font-family: Black;
-    src: url("../assets/fonts/Dana-Black.woff");
-  }
-  @font-face {
-    font-family: ExBlack;
-    src: url("../assets/fonts/Dana-ExtraBlack.woff");
-  }
-  @font-face {
-    font-family: Heavy;
-    src: url("../assets/fonts/Dana-Heavy.woff");
-  }
-  @font-face {
-    font-family: Fat;
-    src: url("../assets/fonts/Dana-fat.woff");
-  }
-  
+  font-family: Hireline;
+  src: url("../assets/fonts/Dana-Hairline.woff");
+}
+@font-face {
+  font-family: Thin;
+  src: url("../assets/fonts/Dana-Thin.woff");
+}
+@font-face {
+  font-family: uktralight;
+  src: url("../assets/fonts/Dana-UltraLight.woff");
+}
+@font-face {
+  font-family: light;
+  src: url("../assets/fonts/Dana-Light.woff");
+}
+@font-face {
+  font-family: Regular;
+  src: url("../assets/fonts/Dana-Regular.woff");
+}
+@font-face {
+  font-family: Medium;
+  src: url("../assets/fonts/Dana-Medium.woff");
+}
+@font-face {
+  font-family: demiBold;
+  src: url("../assets/fonts/Dana-DemiBold.woff");
+}
+@font-face {
+  font-family: Bold;
+  src: url("../assets/fonts/Dana-Bold.woff");
+}
+@font-face {
+  font-family: ExtraBold;
+  src: url("../assets/fonts/Dana-ExtraBold.woff");
+}
+@font-face {
+  font-family: Black;
+  src: url("../assets/fonts/Dana-Black.woff");
+}
+@font-face {
+  font-family: ExBlack;
+  src: url("../assets/fonts/Dana-ExtraBlack.woff");
+}
+@font-face {
+  font-family: Heavy;
+  src: url("../assets/fonts/Dana-Heavy.woff");
+}
+@font-face {
+  font-family: Fat;
+  src: url("../assets/fonts/Dana-fat.woff");
+}
 
+.fonts {
+  -moz-font-feature-settings: "ss03";
+  -webkit-font-feature-settings: "ss03";
+  font-feature-settings: "ss03";
+}
 
-  .fonts {
-    -moz-font-feature-settings: "ss03";
-    -webkit-font-feature-settings: "ss03";
-    font-feature-settings: "ss03";
+.swiper {
+  width: 400px;
+  height: 600px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-color: rgb(206, 17, 17);
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: rgb(0, 140, 255);
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: rgb(10, 184, 111);
+}
+
+.swiper-slide:nth-child(4n) {
+  background-color: rgb(211, 122, 7);
+}
+
+.swiper-slide:nth-child(5n) {
+  background-color: rgb(118, 163, 12);
+}
+
+.swiper-slide:nth-child(6n) {
+  background-color: rgb(180, 10, 47);
+}
+
+.swiper-slide:nth-child(7n) {
+  background-color: rgb(35, 99, 19);
+}
+
+.swiper-slide:nth-child(8n) {
+  background-color: rgb(0, 68, 255);
+}
+
+.swiper-slide:nth-child(9n) {
+  background-color: rgb(218, 12, 218);
+}
+
+.swiper-slide:nth-child(10n) {
+  background-color: rgb(54, 94, 77);
+}
+
+@media only screen and (max-width: 600px) {
+  .swiper {
+    width: 300px;
+    height: 500px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .swiper {
+    width: 300px;
+    height: 500px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .swiper {
+    width: 300px;
+    height: 550px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .swiper {
+    width: 400px;
+    height: 600px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .swiper {
+    width: 400px;
+    height: 600px;
+  }
 }

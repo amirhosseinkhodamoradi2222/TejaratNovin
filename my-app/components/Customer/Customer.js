@@ -6,7 +6,7 @@ import { AiFillStar } from "react-icons/ai";
 export default function Customer() {
   return (
     <>
-      <div className="bg-whate shadow rounded">
+      <div className="bg-whate shadow rounded mt-8">
         <div className="grid grid-cols-4 gap-2">
           <div className="col-span-1">
             <Image src={logo3} className="rounded-full w-16 h-16 mr-5 mt-5" />
