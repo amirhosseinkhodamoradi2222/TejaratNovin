@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import logo from "../../assets/image/logoS.png";
+import {  AiFillLinkedin , AiFillFacebook , AiOutlineInstagram , AiFillPhone} from "react-icons/ai";
+import { FaPhone } from "react-icons/fa";
 
 export default function page() {
   return (
@@ -20,30 +22,53 @@ export default function page() {
               <p className="font-Regular text-xl after:w-12 after:bg-primaryColor lg:text-right text-center">
                 شرکت تجارت نوین
               </p>
+              <p className="font-light my-4 text-sm text-whate">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+              </p>
             </div>
-            <div>
-              <p>dfdsfsdfs</p>
+            <div className="mt-0 lg:mt-2 md:mt-0">
+            <p className="font-Regular text-xl after:w-12 after:bg-primaryColor lg:text-right text-center">
+                لینک مفید
+              </p>
               <p>dfdsfsdfs</p>
               <p>dfdsfsdfs</p>
               <p>dfdsfsdfs</p>
               <p>dfdsfsdfs</p>
             </div>
-            <div>
-              <p>dfdsfsfsa</p>
+            <div className="mt-0 lg:mt-2 md:mt-0">
+            <p className="font-Regular text-xl after:w-12 after:bg-primaryColor lg:text-right text-center">
+                ادرس دفتر کار ما
+              </p>
               <p>dfgdfgdsgreawcvbvcxbvxctgesg</p>
               <p>dfgdsfgsd</p>
               <p>092214314641</p>
             </div>
-            <div>
-              <p>dfdsfsdfs</p>
+            <div className="mt-0 lg:mt-2 md:mt-0">
+            <p className="font-Regular text-lg after:w-12 after:bg-primaryColor lg:text-right text-center">
+                انواع سنگ برای فروش
+              </p>
               <p>dfdsfsdfs</p>
               <p>dfdsfsdfs</p>
               <p>dfdsfsdfs</p>
               <p>dfdsfsdfs</p>
             </div>
           </div>
+          <div className="w-full h-[1px] lg:my-4 my-2 opacity-50 bg-primaryColor"></div>
+          <div className="lg:flex block md:flex gap-2 justify-evenly mt-4">
+            <p className="font-light mt-1 shrink text-whate">
+            © تمامی حقوق سایت برای عماد چابک محفوظ می باشد.
+            </p>
+            <div className="font-Regular mt-1">
+            <FaPhone className="inline mt-0" size={15}/>  021-66948816
+            </div>
+            <div className="flex">
+            <AiFillLinkedin className="w-8 h-8"/>
+            <AiFillFacebook className="w-8 h-8"/>
+            <AiOutlineInstagram className="w-8 h-8"/>
+            </div>
+          </div>
         </div>
-        <div className="divide-x-4 divide-yelloe"></div>
+        
       </footer>
     </>
   );
