@@ -2,6 +2,7 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { NextSeo } from "next-seo";
 import Link from "next/link";
+import { AiOutlineArrowLeft } from "react-icons/ai";
 
 export default function page() {
   return (
@@ -10,7 +11,7 @@ export default function page() {
       <section className="bg-secondaryColor2">
         <div className="container mx-auto py-8">
           <h1 className=" text-center py-4 font-Medium text-secondaryColor3 text-md lg:text-4xl">
-          شرکت تجارت نوین تولید و عرضه مستقیم کاشی و سرامیک
+            شرکت تجارت نوین تولید و عرضه مستقیم کاشی و سرامیک
           </h1>
           <p className="text-justify mt-4 font-Regular text-lg text-whate lg:px-11">
             بدون شک استفاده از خدمات حرفه‌ای سئو به خوبی می‌تواند جایگاه ما را
@@ -20,11 +21,25 @@ export default function page() {
             مقدمات موفقیت شما را فراهم سازیم. مسیر رشد از همین‌جا شروع می‌شود.
             پس همین الان با یک تماس، قدم اول را محکم‌تر از همیشه بردارید.
           </p>
-          <div className="flex">
-          <Link href={'/'} className="lg:font-bold font-light bg-purple text-whate lg:w-36 w-24 lg:py-2 py-1 text-center rounded-lg ">وبلاگ<AiOutlineArrowLeft className="inline text-whate" size={17}/></Link>
-          <Link href={'/'} className="lg:font-bold font-light bg-purple text-whate lg:w-36 w-24 lg:py-2 py-1 text-center rounded-lg ">وبلاگ<AiOutlineArrowLeft className="inline text-whate" size={17}/></Link>
+          <div className="flex gap-10 items-center justify-center mt-8">
+            <Link
+              href={"/"}
+              className="lg:font-bold font-light border border-whate hover:text-secondaryColor2 duration-300 hover:duration-300 hover:bg-whate text-whate lg:w-36 w-24 lg:py-2 py-1 text-center rounded-lg "
+            >
+              021-25004
+            </Link>
+            <Link
+              href={"/"}
+              className="lg:font-bold font-light bg-green text-whate lg:w-36 w-24 lg:py-2 py-1 text-center rounded-lg "
+            >
+              وبلاگ
+              <AiOutlineArrowLeft className="inline text-whate" size={17} />
+            </Link>
           </div>
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:mt-10 mt-4">
+            <div className="rounded border border-whate p-4 bg-whate opacity-10">sfsd</div>
           </div>
+        </div>
       </section>
     </>
   );
