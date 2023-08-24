@@ -19,20 +19,22 @@ function Header() {
         <div className="container mx-auto">
           <div className="grid grid-rows-1 grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-4">
             <div className="mr-4 lg:mr-0">
-              <h1 className="font-Medium text-whate text-md lg:text-3xl">
-                <TypeAnimation
-                  sequence={[
-                    "شرکت تجارت نوین تولید و عرضه مستقیم کاشی و سرامیک",
-                    5000,
-                    "شرکت تجارت نوین",
-                  ]}
-                  wrapper="span"
-                  cursor={false}
-                  speed={50}
-                  className="font-Medium text-whate text-md lg:text-3xl"
-                  repeat={Infinity}
-                />
-              </h1>
+              <div className="h-16">
+                <h1>
+                  <TypeAnimation
+                    sequence={[
+                      "شرکت تجارت نوین تولید و عرضه مستقیم کاشی و سرامیک",
+                      5000,
+                      "شرکت تجارت نوین",
+                    ]}
+                    wrapper="span"
+                    cursor={false}
+                    speed={50}
+                    className="font-Medium text-whate text-md lg:text-3xl"
+                    repeat={Infinity}
+                  />
+                </h1>
+              </div>
               <h2 className="font-Regular mt-8 text-whate lg:text-2xl text-md">
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
               </h2>

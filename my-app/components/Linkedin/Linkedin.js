@@ -16,7 +16,7 @@ function Linkedin() {
             <div className="flex justify-end ml-6 mt-10">
               <BiLogoLinkedinSquare className="text-whate m-0" size={40} />
 
-              <button className="font-light rounded pt-1 text-center px-4 hover:border duration-700 hover:duration-700">
+              <button className="font-light rounded pt-1 text-center px-4 hover:bg-whate hover:text-secondaryColor1 duration-700 hover:duration-700">
                 Follow
               </button>
             </div>

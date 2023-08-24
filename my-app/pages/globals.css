@@ -124,23 +124,23 @@ body {
 
 @media only screen and (max-width: 600px) {
   .swiper {
-    width: 300px;
-    height: 500px;
+    width: 240px;
+    height: 450px;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .swiper {
-    width: 300px;
-    height: 500px;
+    width: 240px;
+    height: 450px;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .swiper {
-    width: 300px;
+    width: 340px;
     height: 550px;
   }
 }
