@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function Product() {
   return (
-    <div className="bg-whate pb-4  hover:shadow-2xl hover:rounded-lg relative">
+    <div className="bg-whate pb-4 duration-300 hover:duration-300  hover:shadow-2xl hover:rounded-lg relative">
       <div className="w-full h-64 relative">
         <Image
           src={logo3}

@@ -37,7 +37,7 @@ export default function page() {
             </Link>
           </div>
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:mt-10 mt-4">
-            <div className="rounded border border-whate p-4 bg-whate opacity-10">sfsd</div>
+            <div className="rounded  p-4 bg-secondaryColor3 outline outline-whate outline-4 opacity-10">sfsd</div>
           </div>
         </div>
       </section>
