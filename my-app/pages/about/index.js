@@ -26,7 +26,7 @@ export default function about() {
             مقدمات موفقیت شما را فراهم سازیم. مسیر رشد از همین‌جا شروع می‌شود.
             پس همین الان با یک تماس، قدم اول را محکم‌تر از همیشه بردارید.
           </p>
-        <div className="lg:flex flex-row gap-4 mb-4 mt-8">
+        <div className="lg:flex grid grid-cols-2 md:grid-cols-3 gap-4 mb-4 mt-8">
           <p className="rounded-xl bg-purple w-full duration-200 hover:duration-200 hover:bg-primaryColor block text-center py-1 text-whate font-Regular"> <AiOutlineHistory className="inline"/> تاریخچه </p>
          <p className="rounded-xl bg-purple w-full duration-200 hover:duration-200 hover:bg-primaryColor block text-center py-1 text-whate font-Regular"> <TbTrophyFilled className="inline"/> نمونه کارهای ما</p>
           <p className="rounded-xl bg-purple w-full duration-200 hover:duration-200 hover:bg-primaryColor block text-center py-1 text-whate font-Regular"> <TbRosetteFilled className="inline"/> تجربه کاری</p>
