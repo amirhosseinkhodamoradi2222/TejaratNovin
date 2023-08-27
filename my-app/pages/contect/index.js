@@ -10,10 +10,8 @@ export default function page() {
       <NextSeo title="contect" description="A short description goes here." />
       <section className="bg-secondaryColor2">
         <div className="container mx-auto py-8">
-          <h1 className=" text-center py-4 font-Medium text-secondaryColor3 text-md lg:text-4xl">
-            شرکت تجارت نوین تولید و عرضه مستقیم کاشی و سرامیک
-          </h1>
-          <p className="text-justify mt-4 font-Regular text-lg text-whate lg:px-11">
+          
+          <p className="text-justify mt-4 font-Regular text-sm lg:text-lg text-whate lg:px-11">
             بدون شک استفاده از خدمات حرفه‌ای سئو به خوبی می‌تواند جایگاه ما را
             در نتایج جستجوی کاربران بهبود دهد. از سوی دیگر با آموزش و یادگیری
             سئو می‌توانیم اقدام به بهینه سازی صفحات سایت و در نتیجه ارتقای رتبه
@@ -37,8 +35,14 @@ export default function page() {
             </Link>
           </div>
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:mt-10 mt-4">
-            <div className="rounded  p-4 bg-secondaryColor3 outline outline-whate outline-4 opacity-10">sfsd</div>
+            <div className="rounded  p-4 bg-secondaryColor3 outline outline-whate outline-4">sfsd</div>
+            <div className="rounded  p-4 bg-secondaryColor3 outline outline-whate outline-4">sfsd</div>
           </div>
+        </div>
+      </section>
+      <section className="my-10">
+        <div className="lg:flex flex-row lg:mx-0 mx-8 gap-8 items-center justify-center">
+          <div></div>
         </div>
       </section>
     </>
