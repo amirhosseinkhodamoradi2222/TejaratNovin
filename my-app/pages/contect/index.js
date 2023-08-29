@@ -3,6 +3,9 @@ import { TypeAnimation } from "react-type-animation";
 import { NextSeo } from "next-seo";
 import Link from "next/link";
 import { AiOutlineArrowLeft } from "react-icons/ai";
+import { BsTelephoneFill , BsWhatsapp , BsLinkedin  } from "react-icons/bs";
+import { FaLocationDot } from "react-icons/fa6";
+
 
 export default function page() {
   return (
@@ -35,14 +38,58 @@ export default function page() {
             </Link>
           </div>
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:mt-10 mt-4">
-            <div className="rounded  p-4 bg-secondaryColor3 outline outline-whate outline-4">sfsd</div>
-            <div className="rounded  p-4 bg-secondaryColor3 outline outline-whate outline-4">sfsd</div>
+            <div className="rounded  p-4 ">
+              <p className="font-Regular text-xl text-whate">سنگ میخوای</p>
+              <p className="font-light text-whate mt-2 mb-2 opacity-90">بدون شک استفاده از خدمات حرفه‌ای سئو به خوبی می‌تواند جایگاه ما را در نتایج جستجوی کاربران بهبود دهد</p>
+              <button className="bg-secondaryColor3 text-whate font-Regular rounded shadow-xl my-2 w-1/4 block float-left">ارسال</button>
+            </div>
+            <div className="rounded  p-4 ">
+              <p className="font-Regular text-xl text-whate">سنگ میخوای</p>
+              <p className="font-light text-whate mt-2 mb-2 opacity-90">بدون شک استفاده از خدمات حرفه‌ای سئو به خوبی می‌تواند جایگاه ما را در نتایج جستجوی کاربران بهبود دهد</p>
+              <button className="bg-secondaryColor3 text-whate font-Regular rounded shadow-xl my-2 w-1/4 block float-left">ارسال</button>
+            </div>
           </div>
         </div>
       </section>
-      <section className="my-10">
+      <section className="my-28 container mx-auto">
+        <p className="text-center font-Medium mb-10 text-3xl">راه های ارتباطی</p>
         <div className="lg:flex flex-row lg:mx-0 mx-8 gap-8 items-center justify-center">
-          <div></div>
+          <div className="bg-whate shadow rounded p-4">
+            <div className="flex gap-4">
+              <FaLocationDot className="text-purple w-10 h-10"/>
+              <div>
+                <p className="font-Regular">آدرس</p>
+                <p className="font-light text-sm mb-2 mt-2">بدون شک استفاده از خدمات حرفه‌ای سئو به خوبی می‌تواند</p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-whate shadow rounded p-4">
+            <div className="flex gap-4">
+              <BsTelephoneFill className="text-purple w-10 h-10"/>
+              <div>
+                <p className="font-Regular">آدرس</p>
+                <p className="font-light text-sm mb-2 mt-2">بدون شک استفاده از خدمات حرفه‌ای سئو به خوبی می‌تواند</p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-whate shadow rounded p-4">
+            <div className="flex gap-4">
+              <BsWhatsapp className="text-purple w-10 h-10"/>
+              <div>
+                <p className="font-Regular">آدرس</p>
+                <p className="font-light text-sm mb-2 mt-2">بدون شک استفاده از خدمات حرفه‌ای سئو به خوبی می‌تواند</p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-whate shadow rounded p-4">
+            <div className="flex gap-4">
+              <BsLinkedin className="text-purple w-10 h-10"/>
+              <div>
+                <p className="font-Regular">آدرس</p>
+                <p className="font-light text-sm mb-2 mt-2">بدون شک استفاده از خدمات حرفه‌ای سئو به خوبی می‌تواند</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>

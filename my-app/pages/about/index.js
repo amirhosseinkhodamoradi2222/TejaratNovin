@@ -150,18 +150,14 @@ export default function about() {
       <div className="grid grid-cols-6"></div>
         </div>
         <div className="container mx-auto">
-
         <div className="rounded-2xl bg-secondaryColor2 p-6 shadow-2xl">
           <div className="grid lg:grid-cols-2 gap-6 grid-cols-1">
           <Image src={logo} className=" w-full h-96" />
           <div>
-
-          <p className="font-Medium text-primaryColor text-4xl">
-                تاریخچه شرکت
-          </p>
+          <p className="font-Medium text-primaryColor text-4xl">تاریخچه شرکت</p>
               <p className="font-light text-justify text-whate mt-6">
                 بدون شک استفاده از خدمات حرفه‌ای سئو به خوبی می‌تواند جایگاه ما
-                را در نتایج جستجوی کاربران بهبود دهد. از سوی دیگر با آموزش و
+                را در نتایج جستجوی کاربرانبهبود دهد. از سوی دیگر با آموزش و
                 یادگیری سئو می‌توانیم اقدام به بهینه سازی صفحات سایت و در نتیجه
                 ارتقای رتبه صفحات سایت خود در نتایج جستجو کنیم. ما مصمم هستیم که
                 می‌توانیم مقدمات موفقیت شما را فراهم سازیم. مسیر رشد از همین‌جا
