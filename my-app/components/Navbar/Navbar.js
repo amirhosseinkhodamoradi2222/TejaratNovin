@@ -17,7 +17,7 @@ export default function Navbar() {
   };
   return (
     <>
-      <main className="shadow-md sticky top-0 z-10 text-white bg-secondaryColor2 text-whate">
+      <main className="shadow-md sticky top-0 z-20 text-white bg-secondaryColor2 text-whate">
         <div className="container mx-auto">
           <div className="flex items-center justify-between">
             <div>
