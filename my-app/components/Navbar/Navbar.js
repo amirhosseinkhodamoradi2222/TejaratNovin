@@ -34,9 +34,6 @@ export default function Navbar() {
                   <Link className="font-Regular" href={"/product"}>
                     <li>{langArabic.product}</li>
                   </Link>
-                  <Link className="font-Regular" href={"/services"}>
-                    <li>{langArabic.service}</li>
-                  </Link>
                   <Link className="font-Regular" href={"/blog"}>
                     <li>{langArabic.blog}</li>
                   </Link>
@@ -73,16 +70,13 @@ export default function Navbar() {
       <div
         className={
           menu
-            ? `block md:hidden right-0 lg:hidden shadow-lg h-screen w-1/2 bg-secondaryColor2 absolute text-white z-10`
-            : `hidden md:hidden z-10  absolute w-1/2 lg:hidden  h-screen bg-secondaryColor2 text-white`
+            ? `h-4/5 md:hidden right-0 lg:hidden shadow-lg w-1/2 bg-secondaryColor2 absolute ease-linear duration-500 text-white inline-block z-10`
+            : `hidden`
         }
       >
         <ul className="flex flex-col gap-4 h-28 items-center">
           <Link className="font-Regular text-whate" href={"/product"}>
             <li>{langArabic.product}</li>
-          </Link>
-          <Link className="font-Regular text-whate" href={"/services"}>
-            <li>{langArabic.service}</li>
           </Link>
           <Link className="font-Regular text-whate" href={"/blog"}>
             <li>{langArabic.blog}</li>

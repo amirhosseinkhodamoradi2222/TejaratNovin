@@ -140,7 +140,7 @@ export default function about() {
               </div>
             </div>
           </div>
-          <div className="py-6 grid lg:grid-cols-4 grid-cols-2 md:grid-cols-3 gap-4">
+          <div className="py-6 grid lg:grid-cols-4 grid-cols-1 md:grid-cols-3 gap-4">
           <Customer/>
           <Customer/>
           <Customer/>

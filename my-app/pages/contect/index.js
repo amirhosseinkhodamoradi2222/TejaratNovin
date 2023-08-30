@@ -41,19 +41,19 @@ export default function page() {
             <div className="bg-whate bg-opacity-10 shadow-md rounded-lg border-opacity-10 border border-whate backdrop-blur-sm p-4">
               <p className="font-Medium text-center text-2xl text-whate">سنگ میخوای</p>
               <p className="font-light text-whate text-center mt-2 mb-2">بدون شک استفاده از خدمات حرفه‌ای سئو به خوبی می‌تواند جایگاه ما را در نتایج جستجوی کاربران بهبود دهد</p>
-              <button className="bg-secondaryColor1 text-whate font-Medium rounded shadow-xl my-2 py-2 w-1/4 block float-left">ارسال</button>
+              <button className="bg-purple text-whate font-Medium rounded shadow-sm my-2 py-2 w-1/4 block float-left">ارسال</button>
             </div>
             <div className="bg-whate bg-opacity-10 shadow-md rounded-lg border-opacity-10 border border-whate backdrop-blur-sm p-4">
               <p className="font-Medium text-center text-2xl text-whate">سنگ میخوای</p>
               <p className="font-light text-whate text-center mt-2 mb-2">بدون شک استفاده از خدمات حرفه‌ای سئو به خوبی می‌تواند جایگاه ما را در نتایج جستجوی کاربران بهبود دهد</p>
-              <button className="bg-secondaryColor1 text-whate font-Medium rounded shadow-xl my-2 py-2 w-1/4 block float-left">ارسال</button>
+              <button className="bg-purple text-whate font-Medium rounded shadow-sm my-2 py-2 w-1/4 block float-left">ارسال</button>
             </div>
           </div>
         </div>
       </section>
       <section className="my-28 container mx-auto">
         <p className="text-center font-Medium mb-10 text-3xl">راه های ارتباطی</p>
-        <div className="lg:flex flex-row lg:mx-0 mx-8 gap-8 items-center justify-center">
+        <div className="lg:flex  flex-row lg:mx-0 mx-8 gap-6 items-center justify-center">
           <div className="bg-whate shadow-sm rounded p-4">
             <div className="flex gap-4">
               <FaLocationDot className="text-whate rounded-full bg-purple w-32 p-4 h-20"/>
@@ -63,7 +63,7 @@ export default function page() {
               </div>
             </div>
           </div>
-          <div className="bg-whate shadow-sm rounded p-4">
+          <div className="bg-whate shadow-sm rounded lg:mt-0 mt-2 p-4">
             <div className="flex gap-4">
               <BsTelephoneFill className="text-whate  rounded-full bg-purple w-32 p-4 h-20"/>
               <div>
@@ -72,7 +72,7 @@ export default function page() {
               </div>
             </div>
           </div>
-          <div className="bg-whate shadow-sm rounded p-4">
+          <div className="bg-whate shadow-sm rounded lg:mt-0 mt-2 p-4">
             <div className="flex gap-4">
               <BsWhatsapp className="text-whate  rounded-full bg-purple w-32 p-4 h-20"/>
               <div>
@@ -81,7 +81,7 @@ export default function page() {
               </div>
             </div>
           </div>
-          <div className="bg-whate shadow-sm rounded p-4">
+          <div className="bg-whate shadow-sm rounded lg:mt-0 mt-2 p-4">
             <div className="flex gap-4">
               <BsLinkedin className="text-whate  rounded-full bg-purple w-32 p-4 h-20"/>
               <div>
