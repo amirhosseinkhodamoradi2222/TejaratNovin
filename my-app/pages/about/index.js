@@ -17,7 +17,13 @@ import Customer from "@/components/Customer/Customer";
 
 export default function about() {
   return (
-    <>
+    <div className="relative">
+    <div className="fixed bg-[#000] z-40 bg-opacity-70 h-full top-0 w-full">
+      <div className="bg-whate rounded-lg shadow absolute right-1/2 top-1/2 w-14 h-12">
+        <Image src={logo} className="w-7 h-7" />
+        <p className="font-Regular text-center">صبر کنید</p>
+      </div>
+    </div>
       <section className="bg-secondaryColor2 p-4">
         <div className="container mx-auto">
           <h1 className=" text-center py-4 font-Medium text-secondaryColor3 text-md text-2xl lg:text-3xl">
@@ -191,6 +197,6 @@ export default function about() {
         </div>
         </section>
       </section>
-    </>
+    </div>
   );
 }
