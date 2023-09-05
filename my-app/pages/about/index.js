@@ -54,7 +54,7 @@ export default function about() {
         </div>
       </section>
       <section className="my-8">
-        <div className="container mx-auto">
+        <div className="container mx-auto my-8">
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
             <div>
               <p className="font-Medium text-primaryColor text-4xl">
@@ -74,9 +74,10 @@ export default function about() {
             <Image src={logo} className="rounded-3xl w-full h-96" />
           </div>
         </div>
-        <div className="mt-8 bg-whate relative backdrop-blur-lg">
+        <div className="container mx-auto">
+        <div className="mt-8 bg-whate relative backdrop-blur-lg my-8">
           <div className="w-60 h-full inline-block absolute z-10 bg-secondaryColor2 shadow-md">
-            <div className=" absolute bottom-4 left-4">
+            <div className="absolute bottom-4 left-4">
             <p className="font-Regular text-whate text-2xl mb-6"> نمومه کار ها </p>
             <p className=" hover:bg-purple w-20 rounded duration-200 hover:duration-200 bg-primaryColor  text-center py-1 text-whate font-Regular"> محصولات </p>
             </div>
@@ -119,8 +120,9 @@ export default function about() {
       </Swiper>
       </div>
         </div>
+        </div>
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+          <div className="grid grid-cols-1 gap-4 my-8 lg:grid-cols-2">
             <div>
             <Image src={logo} className=" w-full h-96" />
             </div>
@@ -149,9 +151,25 @@ export default function about() {
           <Customer/>
           <Customer/>
       </div>
-      <p className="text-center font-Medium text-2xl">محصولات ما</p>
-      <div className="grid grid-cols-6"></div>
+      <section className="my-4">
+      <p className="text-center my-5 font-Medium text-2xl">محصولات ما</p>
+      <div className="grid lg:grid-cols-6 grid-cols-3 gap-4">
+        <div className="w-full rounded h-20 bg-green"></div>
+        <div className="w-full rounded h-20 bg-green"></div>
+        <div className="w-full rounded h-20 bg-green"></div>
+        <div className="w-full rounded h-20 bg-green"></div>
+        <div className="w-full rounded h-20 bg-green"></div>
+        <div className="w-full rounded h-20 bg-green"></div>
+        <div className="w-full rounded h-20 bg-green"></div>
+        <div className="w-full rounded h-20 bg-green"></div>
+        <div className="w-full rounded h-20 bg-green"></div>
+        <div className="w-full rounded h-20 bg-green"></div>
+        <div className="w-full rounded h-20 bg-green"></div>
+        <div className="w-full rounded h-20 bg-green"></div>
+      </div>
+      </section>
         </div>
+        <section className="my-12">
         <div className="container mx-auto">
         <div className="rounded-2xl bg-secondaryColor2 p-6 shadow-2xl">
           <div className="grid lg:grid-cols-2 gap-6 grid-cols-1">
@@ -171,6 +189,7 @@ export default function about() {
           </div>
         </div>
         </div>
+        </section>
       </section>
     </>
   );
