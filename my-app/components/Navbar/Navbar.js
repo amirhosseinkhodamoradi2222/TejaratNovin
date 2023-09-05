@@ -31,19 +31,19 @@ export default function Navbar() {
             <div>
               <div className="hidden md:block lg:block">
                 <ul className="flex gap-4 h-28 items-center">
-                  <Link className="font-Regular" href={"/product"}>
+                  <Link className="font-Regular hover:text-primaryColor hover:font-demiBold duration-300 hover:duration-300" href={"/product"}>
                     <li>{langArabic.product}</li>
                   </Link>
-                  <Link className="font-Regular" href={"/blog"}>
+                  <Link className="font-Regular hover:text-primaryColor hover:font-demiBold duration-300 hover:duration-300" href={"/blog"}>
                     <li>{langArabic.blog}</li>
                   </Link>
-                  <Link className="font-Regular" href={"/about"}>
+                  <Link className="font-Regular hover:text-primaryColor hover:font-demiBold duration-300 hover:duration-300" href={"/about"}>
                     <li>{langArabic.aboutUs}</li>
                   </Link>
-                  <Link className="font-Regular" href={"/contect"}>
+                  <Link className="font-Regular hover:text-primaryColor hover:font-demiBold duration-300 hover:duration-300" href={"/contect"}>
                     <li>{langArabic.contactUs}</li>
                   </Link>
-                  <Link className="font-Regular" href={"/FAQ"}>
+                  <Link className="font-Regular hover:text-primaryColor hover:font-demiBold duration-300 hover:duration-300" href={"/FAQ"}>
                     <li>{langArabic.FAQ}</li>
                   </Link>
                 </ul>

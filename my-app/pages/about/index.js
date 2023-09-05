@@ -74,9 +74,12 @@ export default function about() {
             <Image src={logo} className="rounded-3xl w-full h-96" />
           </div>
         </div>
-        <div className="mt-8 bg-whate relative">
-          <div className="w-60 h-full inline-block bg-primaryColor absolute z-10 shadow-inner">
-            <p className="font-Regular text-3xl absolute bottom-4 left-4"> نمومه کار ها </p>
+        <div className="mt-8 bg-whate relative backdrop-blur-lg">
+          <div className="w-60 h-full inline-block absolute z-10 bg-secondaryColor2 shadow-md">
+            <div className=" absolute bottom-4 left-4">
+            <p className="font-Regular text-whate text-2xl mb-6"> نمومه کار ها </p>
+            <p className=" hover:bg-purple w-20 rounded duration-200 hover:duration-200 bg-primaryColor  text-center py-1 text-whate font-Regular"> محصولات </p>
+            </div>
           </div>
           <div className="py-6">
         <Swiper
