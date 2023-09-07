@@ -5,7 +5,7 @@ import Image from "next/image";
 function Loading() {
 
   return (
-    <div className={"relative"}>
+    <div className="relative">
       <div className="fixed bg-[#000] z-40 bg-opacity-70 h-full top-0 w-full">
         <div class="relative h-screen">
           <div class="fixed inset-0 flex justify-center items-center">

@@ -17,6 +17,7 @@ import Customer from "@/components/Customer/Customer";
 import Loading from "@/components/Loading/Loading";
 
 export default function about() {
+
   return (
     <div>
       {/* <Loading /> */}

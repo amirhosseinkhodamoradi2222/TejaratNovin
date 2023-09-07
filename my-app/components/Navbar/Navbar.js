@@ -8,6 +8,8 @@ import { FiMenu, FiX } from "react-icons/fi";
 
 export default function Navbar() {
   const [menu, setMenu] = useState(false);
+  const [displaymenu,setSisplay] = useState('hidden')
+
   const Menu = () => {
     if (menu == false) {
       setMenu(true);
@@ -31,7 +33,7 @@ export default function Navbar() {
             <div>
               <div className="hidden md:block lg:block">
                 <ul className="flex gap-4 h-28 items-center">
-                  <Link className="font-Regular hover:text-primaryColor hover:font-demiBold duration-300 hover:duration-300" href={"/product"}>
+                  <Link className="font-Regular hover:text-primaryColor hover:font-demiBold  duration-300 hover:duration-300" onMouseLeave={() => setSisplay('hidden')} onMouseOver={() => setSisplay('relative')} href={"/product"}>
                     <li>{langArabic.product}</li>
                   </Link>
                   <Link className="font-Regular hover:text-primaryColor hover:font-demiBold duration-300 hover:duration-300" href={"/blog"}>
@@ -67,6 +69,18 @@ export default function Navbar() {
           </div>
         </div>
       </main>
+      <div className="relative">
+      <div className={`w-full h-full top-0 z-30 ${displaymenu}`}>
+        <div className="container mx-auto">
+        <div className="grid grid-cols-2">
+          <div className="bg-primaryColor">sdfdfsd</div>
+          <div className="bg-primaryColor">sdfdfsd</div>
+          <div className="bg-primaryColor">sdfdfsd</div>
+          <div className="bg-primaryColor">sdfdfsd</div>
+          </div>
+        </div>
+      </div>
+      </div>
       <div
         className={
           menu
