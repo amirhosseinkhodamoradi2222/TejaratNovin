@@ -9,12 +9,6 @@ import React, { useState, useEffect } from "react";
 import Loading from "@/components/Loading/Loading";
 
 function MyApp({ Component, pageProps }) {
-  const [isLoading, setLoading] = useState(true);
-  useEffect(() => {
-      setTimeout(() => {
-        setLoading(false);
-      }, 100);
-  }, []);
 
   return (
     <>
@@ -24,7 +18,6 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <div className="fonts bg-backgroundColor">
         <Navbar />
-        {isLoading ? <Loading /> : <p>sdfds</p>}
         <Component {...pageProps} />
         <Footer />
       </div>

@@ -19,8 +19,7 @@ import Loading from "@/components/Loading/Loading";
 export default function about() {
   return (
     <div>
-      
-      <Loading show={true}/>
+      {/* <Loading /> */}
       <section className="bg-secondaryColor2 p-4">
         <div className="container mx-auto">
           <h1 className=" text-center py-4 font-Medium text-secondaryColor3 text-md text-2xl lg:text-3xl">
