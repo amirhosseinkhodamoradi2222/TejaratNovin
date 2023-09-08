@@ -35,7 +35,7 @@ export default function Navbar() {
             <div>
               <div className="hidden md:block lg:block">
                 <ul className="flex gap-4 h-28 items-center">
-                  <Link className="font-Regular hover:text-primaryColor h-full mt-[86px] hover:font-demiBold duration-300 hover:duration-300" onMouseLeave={() => setSisplay('hidden')} onMouseOver={() => setSisplay('absolute')} href={"/product"}>
+                  <Link className="font-Regular hover:text-primaryColor h-full mt-[86px] hover:font-demiBold duration-300 hover:duration-300" onMouseLeave={() => {setSisplay('hidden'), SetTextMenu('شرکت تجارت نوین')}} onMouseOver={() => setSisplay('absolute')} href={"/product"}>
                     <li>{langArabic.product}</li>
                   </Link>
                   <Link className="font-Regular hover:text-primaryColor hover:font-demiBold duration-300 hover:duration-300" href={"/blog"}>
@@ -71,7 +71,7 @@ export default function Navbar() {
           </div>
         </div>
         </div>
-      <div className={`w-full top-30 z-30 duration-500 ${displaymenu}`}  onMouseLeave={() => setSisplay('hidden')} onMouseOver={() => setSisplay('absolute')} href={"/product"}>
+      <div className={`w-full  top-30 z-30 duration-500 ${displaymenu}`}  onMouseLeave={() => setSisplay('hidden')} onMouseOver={() => setSisplay('absolute')} href={"/product"}>
         <div className="container mx-auto">
           <div className="bg-secondaryColor2 text-[#fff] shadow-md p-4 ">
         <div className="grid lg:grid-cols-2 gap-6 grid-cols-1">
