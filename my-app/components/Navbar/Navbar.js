@@ -9,6 +9,7 @@ import { FiMenu, FiX } from "react-icons/fi";
 export default function Navbar() {
   const [menu, setMenu] = useState(false);
   const [displaymenu,setSisplay] = useState('hidden')
+  const [textMenu , SetTextMenu] = useState('شرکت تجارت نوین')
 
   const Menu = () => {
     if (menu == false) {
@@ -19,7 +20,8 @@ export default function Navbar() {
   };
   return (
     <>
-      <main className="shadow-md sticky top-0 z-20 text-white bg-secondaryColor2 text-whate">
+      <main className="sticky top-0 z-20">
+        <div className="shadow-md text-white bg-secondaryColor2 text-whate">
         <div className="container mx-auto">
           <div className="flex items-center justify-between">
             <div>
@@ -33,7 +35,7 @@ export default function Navbar() {
             <div>
               <div className="hidden md:block lg:block">
                 <ul className="flex gap-4 h-28 items-center">
-                  <Link className="font-Regular hover:text-primaryColor hover:font-demiBold  duration-300 hover:duration-300" onMouseLeave={() => setSisplay('hidden')} onMouseOver={() => setSisplay('relative')} href={"/product"}>
+                  <Link className="font-Regular hover:text-primaryColor h-full mt-[86px] hover:font-demiBold duration-300 hover:duration-300" onMouseLeave={() => setSisplay('hidden')} onMouseOver={() => setSisplay('absolute')} href={"/product"}>
                     <li>{langArabic.product}</li>
                   </Link>
                   <Link className="font-Regular hover:text-primaryColor hover:font-demiBold duration-300 hover:duration-300" href={"/blog"}>
@@ -68,19 +70,27 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-      </main>
-      <div className="relative">
-      <div className={`w-full h-full top-0 z-30 ${displaymenu}`}>
+        </div>
+      <div className={`w-full top-30 z-30 duration-500 ${displaymenu}`}  onMouseLeave={() => setSisplay('hidden')} onMouseOver={() => setSisplay('absolute')} href={"/product"}>
         <div className="container mx-auto">
-        <div className="grid grid-cols-2">
-          <div className="bg-primaryColor">sdfdfsd</div>
-          <div className="bg-primaryColor">sdfdfsd</div>
-          <div className="bg-primaryColor">sdfdfsd</div>
-          <div className="bg-primaryColor">sdfdfsd</div>
+          <div className="bg-secondaryColor2 text-[#fff] shadow-md p-4 ">
+        <div className="grid lg:grid-cols-2 gap-6 grid-cols-1">
+          <div className="">
+            <Link onMouseOver={() => SetTextMenu('سلام خوبی')}  className="font-Medium block p-2 mr-3 duration-300 hover:duration-300 hover:shadow hover:text-[#fff] hover:bg-secondaryColor3 hover:rounded-lg" href={'/'}>سنگ سرامیک</Link>
+            <Link onMouseOver={() => SetTextMenu('سلام چطوری')} className="font-Medium block p-2 mr-3 duration-300 hover:duration-300 hover:shadow hover:text-[#fff] hover:bg-secondaryColor3 hover:rounded-lg" href={'/'}>سنگ سرامیک</Link>
+            <Link onMouseOver={() => SetTextMenu('سلام فدات')}  className="font-Medium block p-2 mr-3 duration-300 hover:duration-300 hover:shadow hover:text-[#fff] hover:bg-secondaryColor3 hover:rounded-lg" href={'/'}>سنگ سرامیک</Link>
+            <Link onMouseOver={() => SetTextMenu('سلام مرسی')}  className="font-Medium block p-2 mr-3 duration-300 hover:duration-300 hover:shadow hover:text-[#fff] hover:bg-secondaryColor3 hover:rounded-lg" href={'/'}>سنگ سرامیک</Link>
+          </div>
+          <div className="">
+          <p className="font-Regular text-right">{textMenu}</p>
+          </div>
+          </div>
           </div>
         </div>
       </div>
-      </div>
+      </main>
+
+
       <div
         className={
           menu
