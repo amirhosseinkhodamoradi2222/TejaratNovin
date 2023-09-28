@@ -37,14 +37,14 @@ export default function page() {
               <AiOutlineArrowLeft className="inline text-whate" size={17} />
             </Link>
           </div>
-          <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:mt-10 mt-4">
-            <div className="bg-whate bg-opacity-10 shadow-md rounded-lg border-opacity-10 border border-whate backdrop-blur-sm p-4">
-              <p className="font-Medium text-center text-2xl text-whate">سنگ میخوای</p>
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:mt-10 mt-16">
+            <div className="bg-whate bg-opacity-10 shadow-md rounded-lg border-opacity-10 border border-whate backdrop-blur-sm lg:p-4 p-1">
+              <p className="font-Medium text-center lg:text-2xl text-xl text-whate">سنگ میخوای</p>
               <p className="font-light text-whate text-center mt-2 mb-2">بدون شک استفاده از خدمات حرفه‌ای سئو به خوبی می‌تواند جایگاه ما را در نتایج جستجوی کاربران بهبود دهد</p>
               <button className="bg-purple text-whate font-Medium rounded shadow-sm my-2 py-2 w-1/4 block float-left">ارسال</button>
             </div>
-            <div className="bg-whate bg-opacity-10 shadow-md rounded-lg border-opacity-10 border border-whate backdrop-blur-sm p-4">
-              <p className="font-Medium text-center text-2xl text-whate">سنگ میخوای</p>
+            <div className="bg-whate bg-opacity-10 shadow-md rounded-lg border-opacity-10 border border-whate backdrop-blur-sm lg:p-4 p-1">
+              <p className="font-Medium text-center lg:text-2xl text-xl text-whate">سنگ میخوای</p>
               <p className="font-light text-whate text-center mt-2 mb-2">بدون شک استفاده از خدمات حرفه‌ای سئو به خوبی می‌تواند جایگاه ما را در نتایج جستجوی کاربران بهبود دهد</p>
               <button className="bg-purple text-whate font-Medium rounded shadow-sm my-2 py-2 w-1/4 block float-left">ارسال</button>
             </div>

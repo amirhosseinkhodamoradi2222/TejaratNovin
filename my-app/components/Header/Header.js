@@ -56,22 +56,22 @@ function Header() {
                 className="mySwiper"
               >
                 <SwiperSlide>
-                  <Image src={logo3} width={500} height={500} />
+                  <Image src={logo3} />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src={logo3} width={500} height={500} />
+                  <Image src={logo3} />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src={logo3} width={500} height={500} />
+                  <Image src={logo3} />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src={logo3} width={500} height={500} />
+                  <Image src={logo3} />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src={logo3} width={500} height={500} />
+                  <Image src={logo3} />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <Image src={logo3} width={500} height={500} />
+                  <Image src={logo3} />
                 </SwiperSlide>
               </Swiper>
             </div>

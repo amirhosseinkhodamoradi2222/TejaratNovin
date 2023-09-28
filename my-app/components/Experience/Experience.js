@@ -26,44 +26,44 @@ export default function Experience() {
                data-tooltip-id="my-tooltip"
                data-tooltip-content="Iraq"
                 src={iraq}
-                className="border-2 duration-200 hover:duration-200 border-white shadow shadow-primaryColor rounded-full md:h-20 md:w-20 lg:h-24 h-20 w-20 lg:w-24  hover:ml-6"
+                className="border-2 duration-200 hover:duration-200 border-white shadow shadow-primaryColor rounded-full md:h-20 md:w-20 lg:h-24 h-14 w-14 lg:w-24  hover:ml-6"
               />
 
               <Image
               data-tooltip-id="my-tooltip"
               data-tooltip-content="Qatar"
                 src={qatar}
-                className="border-2 border-white duration-300 hover:duration-300 shadow shadow-primaryColor rounded-full md:h-20 md:w-20 lg:h-24 h-20 w-20 lg:w-24  -mr-6 hover:-mr-1 hover:ml-6"
+                className="border-2 border-white duration-300 hover:duration-300 shadow shadow-primaryColor rounded-full md:h-20 md:w-20 lg:h-24 h-14 w-14 lg:w-24  -mr-6 hover:-mr-1 hover:ml-6"
               />
               <Image
               data-tooltip-id="my-tooltip"
               data-tooltip-content="Emirates"
                 src={emirates}
-                className="border-2 border-white duration-300 hover:duration-300 shadow shadow-primaryColor rounded-full md:h-20 md:w-20 lg:h-24 h-20 w-20 lg:w-24  -mr-6 hover:-mr-1 hover:ml-6"
+                className="border-2 border-white duration-300 hover:duration-300 shadow shadow-primaryColor rounded-full md:h-20 md:w-20 lg:h-24 h-14 w-14 lg:w-24  -mr-6 hover:-mr-1 hover:ml-6"
               />
               <Image
               data-tooltip-id="my-tooltip"
               data-tooltip-content="Oman"
                 src={oman}
-                className="border-2 border-white shadow duration-300 hover:duration-300 shadow-primaryColor rounded-full md:h-20 md:w-20 lg:h-24 h-20 w-20 lg:w-24  -mr-6 hover:-mr-1 hover:ml-6"
+                className="border-2 border-white shadow duration-300 hover:duration-300 shadow-primaryColor rounded-full md:h-20 md:w-20 lg:h-24 h-14 w-14 lg:w-24  -mr-6 hover:-mr-1 hover:ml-6"
               />
               <Image
               data-tooltip-id="my-tooltip"
               data-tooltip-content="Lobanon"
                 src={lebanon}
-                className="border-2 border-white shadow duration-300 hover:duration-300 shadow-primaryColor rounded-full md:h-20 md:w-20 lg:h-24 h-20 w-20 lg:w-24  -mr-6 hover:-mr-1 hover:ml-6"
+                className="border-2 border-white shadow duration-300 hover:duration-300 shadow-primaryColor rounded-full md:h-20 md:w-20 lg:h-24 h-14 w-14 lg:w-24  -mr-6 hover:-mr-1 hover:ml-6"
               />
               <Image
               data-tooltip-id="my-tooltip"
               data-tooltip-content="Kuwate"
                 src={kuwait}          
-                className="border-2 border-white shadow duration-300 hover:duration-300 shadow-primaryColor rounded-full md:h-20 md:w-20 lg:h-24 h-20 w-20 lg:w-24  -mr-6  hover:-mr-1 hover:ml-6"
+                className="border-2 border-white shadow duration-300 hover:duration-300 shadow-primaryColor rounded-full md:h-20 md:w-20 lg:h-24 h-14 w-14 lg:w-24  -mr-6  hover:-mr-1 hover:ml-6"
               />
               <Image
               data-tooltip-id="my-tooltip"
               data-tooltip-content="Syria"
                 src={syria}
-                className="border-2 border-white shadow duration-300 hover:duration-300 shadow-primaryColor rounded-full md:h-20 md:w-20 lg:h-24 h-20 w-20 lg:w-24  -mr-6 hover:mr-1" 
+                className="border-2 border-white shadow duration-300 hover:duration-300 shadow-primaryColor rounded-full md:h-20 md:w-20 lg:h-24 h-14 w-14 lg:w-24  -mr-6 hover:mr-1" 
               />
               <Tooltip id="my-tooltip" />
             </div>

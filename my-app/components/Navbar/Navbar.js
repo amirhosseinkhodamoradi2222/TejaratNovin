@@ -71,7 +71,7 @@ export default function Navbar() {
           </div>
         </div>
         </div>
-      <div className={`w-full  top-30 z-30 duration-500 ${displaymenu}`}  onMouseLeave={() => setSisplay('hidden')} onMouseOver={() => setSisplay('absolute')} href={"/product"}>
+      <div className={`w-full top-30 z-30 duration-500 ${displaymenu}`}  onMouseLeave={() => setSisplay('hidden')} onMouseOver={() => setSisplay('absolute')} href={"/product"}>
         <div className="container mx-auto">
           <div className="bg-secondaryColor2 text-[#fff] shadow-md p-4 ">
         <div className="grid lg:grid-cols-2 gap-6 grid-cols-1">
@@ -81,8 +81,9 @@ export default function Navbar() {
             <Link onMouseOver={() => SetTextMenu('سلام فدات')}  className="font-Medium block p-2 mr-3 duration-300 hover:duration-300 hover:shadow hover:text-[#fff] hover:bg-secondaryColor3 hover:rounded-lg" href={'/'}>سنگ سرامیک</Link>
             <Link onMouseOver={() => SetTextMenu('سلام مرسی')}  className="font-Medium block p-2 mr-3 duration-300 hover:duration-300 hover:shadow hover:text-[#fff] hover:bg-secondaryColor3 hover:rounded-lg" href={'/'}>سنگ سرامیک</Link>
           </div>
-          <div className="">
+          <div className="relative">
           <p className="font-Regular text-right">{textMenu}</p>
+          <Link className="absolute bottom-3 left-3 bg-green rounded text-center block shadow font-Regular py-1 w-24" href={'/'}>بیشتر</Link>
           </div>
           </div>
           </div>
@@ -94,11 +95,11 @@ export default function Navbar() {
       <div
         className={
           menu
-            ? `h-4/5 md:hidden right-0 lg:hidden shadow-lg w-1/2 bg-secondaryColor2 absolute ease-linear duration-500 text-white inline-block z-10`
+            ? `h-full md:hidden right-0 top-10 lg:hidden shadow-lg w-1/2 bg-secondaryColor2 fixed ease-linear duration-500 text-white inline-block z-10`
             : `hidden`
         }
       >
-        <ul className="flex flex-col gap-4 h-28 items-center">
+        <ul className="flex flex-col mt-12 gap-4 h-28 items-center">
           <Link className="font-Regular text-whate" href={"/product"}>
             <li>{langArabic.product}</li>
           </Link>
@@ -114,7 +115,7 @@ export default function Navbar() {
           <Link className="font-Regular text-whate" href={"/FAQ"}>
             <li>{langArabic.FAQ}</li>
           </Link>
-          <button className="font-demiBold mt-4 rounded bg-yelloe text-whate py-1 px-12 hover:shadow-lg">
+          <button className="font-demiBold mt-4 absolute bottom-14 rounded bg-yelloe text-whate py-1 px-12 hover:shadow-lg">
             {langArabic.catalog}
           </button>
         </ul>

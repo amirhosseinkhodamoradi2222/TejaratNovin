@@ -24,7 +24,7 @@ function Product() {
         </div>
       </div>
       <Link href={"/"}>
-        <p className="font-light text-center mt-4 text-whate mx-2 bg-gray rounded py-2">
+        <p className="font-light text-center mt-4 text-whate mx-2 bg-green rounded py-2">
           خرید
         </p>
       </Link>

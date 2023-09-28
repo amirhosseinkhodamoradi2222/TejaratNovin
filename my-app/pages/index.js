@@ -18,7 +18,7 @@ export default function Home(props) {
       
       <div className="container mx-auto">
         <p className="font-Regular py-8">دسته بندی ها</p>
-        <div className="grid  grid-rows-1 grid-cols-2 lg:grid-cols-4 md:grid-cols-2 lg:gap-0 gap-2 ">
+        <div className="grid  grid-rows-1 grid-cols-4 lg:grid-cols-4 md:grid-cols-2 gap-4 ">
           <div className="justify-self-center ">
             <Catgory />
           </div>

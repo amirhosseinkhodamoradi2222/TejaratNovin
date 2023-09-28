@@ -1,12 +1,20 @@
+import { useState } from "react";
 import Image from "next/image";
 import React from "react";
 import logo3 from "../../assets/image/logo3.png";
 import Link from "next/link";
+import LoadingGif from '../../assets/image/animation_lmc19jfg.json'
 
 function Product() {
+  
+  const [Loading , setLoading] = useState('hidden')
+
   return (
-    <div className="bg-whate pb-4 duration-300 hover:duration-300  hover:shadow-2xl hover:rounded-lg relative">
+    <div className="bg-whate pb-4 duration-300 hover:duration-300  hover:shadow-2xl hover:rounded-lg relative" onMouseLeave={() => setLoading('hidden')} onMouseOver={() => setLoading('absolute')} >
       <div className="w-full h-64 relative">
+        <div className={`${Loading} w-full h-full rounded-t-lg bg-[#000] bg-opacity-70`}>
+          <Image src={LoadingGif} className="bg-secondaryColor3" />
+        </div>
         <Image
           src={logo3}
           width={700}
@@ -21,7 +29,7 @@ function Product() {
         </div>
       </div>
 
-      <p className="font-light text-lg bg-yelloeInfo left-24 m-0 right-24 rounded-lg mr-2 px-8 absolute top-60 text-whate text-center mt-2 py-0 ">
+      <p className="font-light text-lg bg-yelloeInfo left-24 m-0 right-24 rounded-lg mr-2 lg:px-8 px-0 absolute top-[236px] text-[#000] text-center mt-2 py-0 ">
         موجود در انبار
       </p>
       <p className="font-bold opacity-80 text-2xl mt-4 text-center pr-2 pt-2">

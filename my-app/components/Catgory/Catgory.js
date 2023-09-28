@@ -4,7 +4,7 @@ import Link from 'next/link'
 function Catgory() {
   return (
     <>
-    <div className='w-28 h-20 bg-secondaryColor1'>
+    <div className='lg:w-28 w-24 lg:h-20 h-24 bg-secondaryColor1'>
     <p className='text-center font-Regular text-whate'>سرامیک</p>
     </div>
     </>
